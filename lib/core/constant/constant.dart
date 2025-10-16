@@ -1,8 +1,8 @@
 class Constant {
-  static String api = "http://10.0.2.2:8000/api";
-  static String domain = "http://10.0.2.2:8000";
+  static String api = "https://a6d935d9bf60.ngrok-free.app/api";
+  static String domain = "https://a6d935d9bf60.ngrok-free.app";
 
   static String endpoint(final String destination) {
-    return "http://10.0.2.2:8000/api$destination";
+    return "https://a6d935d9bf60.ngrok-free.app/api$destination";
   }
 }
